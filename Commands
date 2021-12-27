@@ -9,6 +9,8 @@ https://www.ivoidwarranties.tech/posts/pentesting-tuts/cme/crackmapexec/
 https://github.com/byt3bl33d3r/CrackMapExec/wiki/SMB-Command-Reference
 https://github.com/byt3bl33d3r/CrackMapExec/wiki/Command-Execution
 
+https://www.securitynik.com/2019/05/having-fun-with-crackmapexec.html
+
 -M gpp_password
 
 -id 1 --loggedon-users
